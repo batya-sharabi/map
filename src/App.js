@@ -6,7 +6,6 @@ import { Row, Col } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-        <div className = "map-one">
         <Row>
           <Col xs={4} sm={4} md={4} lg={4}>
           <h3>
@@ -28,8 +27,6 @@ function App() {
             </ReactBingmaps>
           </Col>
           </Row>
-            
-          </div>
     </div>
   );
 }
